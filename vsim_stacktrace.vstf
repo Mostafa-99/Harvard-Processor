@@ -1,0 +1,604 @@
+# Current time Sun Jun 13 01:45:10 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x008f8455: '<unknown (@0x8f8455)>'
+# 4    0x0128761f: '<unknown (@0x128761f)>'
+# 5    0x008f84c3: '<unknown (@0x8f84c3)>'
+# 6    0x008f9259: '<unknown (@0x8f9259)>'
+# 7    0x008f9da5: '<unknown (@0x8f9da5)>'
+# 8    0x008f257c: '<unknown (@0x8f257c)>'
+# 9    0x008ff34c: '<unknown (@0x8ff34c)>'
+# 10   0x00b20633: '<unknown (@0xb20633)>'
+# 11   0x00b21188: '<unknown (@0xb21188)>'
+# 12   0x00b1e244: '<unknown (@0xb1e244)>'
+# 13   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 14   0x60dae716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 15   0x60daf37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 16   0x60daeb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 17   0x00c93007: '<unknown (@0xc93007)>'
+# 18   0x60e01795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 19   0x60e50272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:45:15 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x774bcdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x774b904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x774c4ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x60dae716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x60daf37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x60daeb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x60e01795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x60e50272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:45:15 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x774bcdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x774b904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x774c4ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x60dae716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x60daf37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x60daeb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x60e01795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x60e50272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:45:15 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x774bcdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x774b904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x774c4ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x60dae716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x60daf37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x60daeb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x60e01795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x60e50272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:50:51 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x008f8455: '<unknown (@0x8f8455)>'
+# 4    0x0128761f: '<unknown (@0x128761f)>'
+# 5    0x008f84c3: '<unknown (@0x8f84c3)>'
+# 6    0x008f9259: '<unknown (@0x8f9259)>'
+# 7    0x008f9da5: '<unknown (@0x8f9da5)>'
+# 8    0x008f257c: '<unknown (@0x8f257c)>'
+# 9    0x008ff34c: '<unknown (@0x8ff34c)>'
+# 10   0x00b20633: '<unknown (@0xb20633)>'
+# 11   0x00b21188: '<unknown (@0xb21188)>'
+# 12   0x00b1e244: '<unknown (@0xb1e244)>'
+# 13   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 14   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 15   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 16   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 17   0x00c93007: '<unknown (@0xc93007)>'
+# 18   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 19   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:50:58 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:50:58 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:50:58 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:53:10 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x008f8455: '<unknown (@0x8f8455)>'
+# 4    0x0128761f: '<unknown (@0x128761f)>'
+# 5    0x008f84c3: '<unknown (@0x8f84c3)>'
+# 6    0x008f9259: '<unknown (@0x8f9259)>'
+# 7    0x008f9da5: '<unknown (@0x8f9da5)>'
+# 8    0x008f257c: '<unknown (@0x8f257c)>'
+# 9    0x008ff34c: '<unknown (@0x8ff34c)>'
+# 10   0x00b20633: '<unknown (@0xb20633)>'
+# 11   0x00b21188: '<unknown (@0xb21188)>'
+# 12   0x00b1e244: '<unknown (@0xb1e244)>'
+# 13   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 14   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 15   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 16   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 17   0x00c93007: '<unknown (@0xc93007)>'
+# 18   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 19   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:53:20 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:53:20 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 01:53:20 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca68d6: '<unknown (@0xca68d6)>'
+# 1    0x00ca4223: '<unknown (@0xca4223)>'
+# 2    0x00ca5548: '<unknown (@0xca5548)>'
+# 3    0x00b9b1a5: '<unknown (@0xb9b1a5)>'
+# 4    0x012874bd: '<unknown (@0x12874bd)>'
+# 5    0x00b9b210: '<unknown (@0xb9b210)>'
+# 6    0x00b9bf60: '<unknown (@0xb9bf60)>'
+# 7    0x00ba47ae: '<unknown (@0xba47ae)>'
+# 8    0x00ba47d7: '<unknown (@0xba47d7)>'
+# 9    0x00b95010: '<unknown (@0xb95010)>'
+# 10   0x00bac595: '<unknown (@0xbac595)>'
+# 11   0x00bac1b6: '<unknown (@0xbac1b6)>'
+# 12   0x00bac2c6: '<unknown (@0xbac2c6)>'
+# 13   0x00aed39c: '<unknown (@0xaed39c)>'
+# 14   0x00828070: '<unknown (@0x828070)>'
+# 15   0x012fd2ab: '<unknown (@0x12fd2ab)>'
+# 16   0x00827643: '<unknown (@0x827643)>'
+# 17   0x0092547d: '<unknown (@0x92547d)>'
+# 18   0x7716cdc8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 19   0x7716904b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 20   0x77174ee6: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 21   0x00ca4223: '<unknown (@0xca4223)>'
+# 22   0x00ca5548: '<unknown (@0xca5548)>'
+# 23   0x008f8455: '<unknown (@0x8f8455)>'
+# 24   0x0128761f: '<unknown (@0x128761f)>'
+# 25   0x008f84c3: '<unknown (@0x8f84c3)>'
+# 26   0x008f9259: '<unknown (@0x8f9259)>'
+# 27   0x008f9da5: '<unknown (@0x8f9da5)>'
+# 28   0x008f257c: '<unknown (@0x8f257c)>'
+# 29   0x008ff34c: '<unknown (@0x8ff34c)>'
+# 30   0x00b20633: '<unknown (@0xb20633)>'
+# 31   0x00b21188: '<unknown (@0xb21188)>'
+# 32   0x00b1e244: '<unknown (@0xb1e244)>'
+# 33   0x008ff92d: '<unknown (@0x8ff92d)>'
+# 34   0x7a06e716: 'Tcl_ListMathFuncs + 0x456' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 35   0x7a06f37e: 'Tcl_EvalEx + 0x80e' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 36   0x7a06eb8c: 'Tcl_EvalEx + 0x1c' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 37   0x00c93007: '<unknown (@0xc93007)>'
+# 38   0x7a0c1795: 'Tcl_NotifyChannel + 0x125' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# 39   0x7a110272: 'TclpHasSockets + 0x362' in 'd:\quartus\modelsim_ase\win32aloem\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 03:45:20 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca685a: '<unknown (@0xca685a)>'
+# 1    0x00ca4d21: '<unknown (@0xca4d21)>'
+# 2    0x007c70db: '<unknown (@0x7c70db)>'
+# 3    0x007d0167: '<unknown (@0x7d0167)>'
+# 4    0x007d0329: '<unknown (@0x7d0329)>'
+# 5    0x007d0329: '<unknown (@0x7d0329)>'
+# 6    0x007caf85: '<unknown (@0x7caf85)>'
+# 7    0x007c9dbf: '<unknown (@0x7c9dbf)>'
+# 8    0x007c9688: '<unknown (@0x7c9688)>'
+# 9    0x005e424b: '<unknown (@0x5e424b)>'
+# 10   0x005e4afc: '<unknown (@0x5e4afc)>'
+# 11   0x00ad5fc4: '<unknown (@0xad5fc4)>'
+# 12   0x00ae2294: '<unknown (@0xae2294)>'
+# 13   0x00ae2c7d: '<unknown (@0xae2c7d)>'
+# 14   0x00aebd26: '<unknown (@0xaebd26)>'
+# End of Stack Trace
+
+
+# Current time Sun Jun 13 03:47:47 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca685a: '<unknown (@0xca685a)>'
+# 1    0x00ca4d21: '<unknown (@0xca4d21)>'
+# 2    0x007c70db: '<unknown (@0x7c70db)>'
+# 3    0x007d0167: '<unknown (@0x7d0167)>'
+# 4    0x007d0329: '<unknown (@0x7d0329)>'
+# 5    0x007d0329: '<unknown (@0x7d0329)>'
+# 6    0x007caf85: '<unknown (@0x7caf85)>'
+# 7    0x007c9dbf: '<unknown (@0x7c9dbf)>'
+# 8    0x007c9688: '<unknown (@0x7c9688)>'
+# 9    0x005e424b: '<unknown (@0x5e424b)>'
+# 10   0x005e4afc: '<unknown (@0x5e4afc)>'
+# 11   0x00ad5fc4: '<unknown (@0xad5fc4)>'
+# 12   0x00ae2294: '<unknown (@0xae2294)>'
+# 13   0x00ae2c7d: '<unknown (@0xae2c7d)>'
+# 14   0x00aebd26: '<unknown (@0xaebd26)>'
+# End of Stack Trace
+
+

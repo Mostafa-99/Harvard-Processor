@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Spring 2021/Arch/lab exam
+Edatamemeory
+Z0 w1623548662
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor
+Z5 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+Z6 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+l0
+L5
+VLXE;6RICXdG8BAU3TEhL91
+!s100 iK::;JJ:ME6GWg3]I;a^90
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1623548972
+!i10b 1
+Z9 !s108 1623548972.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
+Z11 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Adatamemeory1
+R1
+R2
+R3
+DEx4 work 11 datamemeory 0 22 LXE;6RICXdG8BAU3TEhL91
+l23
+L18
+VgXd[aZdk@S`IF7YKIPL<T1
+!s100 XYc?:>fE<D3QMHAhF4l^J2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Einstructionmemory
+Z14 w1623548905
+R1
+R2
+R3
+R4
+Z15 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+Z16 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+l0
+L5
+V^H45kACPFE?cL9B[9@8TJ2
+!s100 48bMO6W@K8[I1zhgHz1O]0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+Z18 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+!i113 1
+R12
+R13
+Ainstructionmemory1
+R1
+R2
+R3
+DEx4 work 17 instructionmemory 0 22 ^H45kACPFE?cL9B[9@8TJ2
+l20
+L16
+VjSnR0BAXQ?_EEcHD^PI9a3
+!s100 CjH^Cb8]hONVnJ:GaMI:U3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eram
+Z19 w1623540993
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L5
+V9bFnGO`VbYR2iU`jdm9l`1
+!s100 6Tm0T4?deW?MNfNV2laVC2
+R7
+32
+Z20 !s110 1623541320
+!i10b 1
+Z21 !s108 1623541319.000000
+R10
+R11
+!i113 1
+R12
+R13
+Aram1
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 9bFnGO`VbYR2iU`jdm9l`1
+l22
+L18
+VH7dPKGi<EaR^;gUGBK=:a0
+!s100 9c=_T;HQSO_Y[FlKAQ3l22
+R7
+32
+R20
+!i10b 1
+R21
+R10
+R11
+!i113 1
+R12
+R13
