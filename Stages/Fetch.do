@@ -30,7 +30,7 @@ update
 WaveRestoreZoom {0 ps} {955 ps}
 
 
-mem load -i {./Memory/output.mem} /fetchstage/iMem/instruction_memory
+mem load -i {./Memory/TwoOperand.mem} /fetchstage/iMem/instruction_memory
 force -freeze sim:/fetchstage/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/fetchstage/rst 1 0
 force -freeze sim:/fetchstage/pcWrite 1 0

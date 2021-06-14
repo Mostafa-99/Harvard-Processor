@@ -4,7 +4,11 @@ use ieee.std_logic_1164.all;
 
 entity FetchStage is
     port (
-        clk, rst, pcWrite : in std_logic
+        clk, rst, pcWrite : in std_logic;
+        instructionOut : out std_logic_vector(32 - 1 downto 0);
+        incrementedPCOut : out std_logic_vector(32 - 1 downto 0)
+        --nonPickedAddressOut : out std_logic_vector(32 - 1 downto 0);
+
     );
 end entity FetchStage;
 
@@ -57,6 +61,12 @@ begin
     pc : IBuffer generic map(32) port map(clk, zeros(0), pcWrite, PCinput, PCoutput);
     memInputRstMux : MUX2 generic map(32) port map(rst, PCoutput, zeros, iMemInput);
     iMem : InstructionMemory generic map(32, 20) port map(iMemInput, iMemOutput);
-    pcAdd : PCAdder port map(PCoutput(31), PCoutput, pcIncremented);
+    pcAdd : PCAdder port map(iMemOutput(31), PCoutput, pcIncremented);
     zeros <= (others => '0');
+    instructionOut <= iMemOutput when rst = '0'
+        else
+        (others => 'Z');
+    incrementedPCOut <= pcIncremented;
+    --nonPickedAddressOut <=
+
 end FetchStage1;

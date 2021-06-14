@@ -12,7 +12,7 @@ end entity;
 
 architecture pcAdder of PCAdder is
 begin
-    PC_out <= std_logic_vector(unsigned(PC_in) + to_unsigned(2, 32 - 1)) when inc4 = '0'
+    PC_out <= std_logic_vector(unsigned(PC_in) + to_unsigned(1, 32 - 1)) when inc4 = '0'
         else
-        std_logic_vector(unsigned(PC_in) + to_unsigned(4, 32 - 1));
+        std_logic_vector(unsigned(PC_in) + to_unsigned(2, 32 - 1));
 end architecture;
