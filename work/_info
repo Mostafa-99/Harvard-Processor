@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/Spring 2021/Arch/lab exam
 Ealu
-Z0 w1623645664
+Z0 w1623669012
 Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
@@ -18,13 +18,13 @@ Z5 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd
 Z6 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd
 l0
 L5
-V<JZU4[<S0EP6]JcIPX6KZ0
-!s100 5n8gFdgzC^`CU>5DbYM@Q2
+Vb@:1>DP`MU=UIedJA7^TU1
+!s100 F>oXj<TT8XUbkVRNmN;Kf2
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1623663469
+Z8 !s110 1623671046
 !i10b 1
-Z9 !s108 1623663469.000000
+Z9 !s108 1623671046.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd|
 Z11 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Aarch1
 R1
 R2
 R3
-DEx4 work 3 alu 0 22 <JZU4[<S0EP6]JcIPX6KZ0
-l17
-L14
-VnPZb=D@fCRoLbcj`J@;<d2
-!s100 JWFie_]0Sl]Unl8BANblR2
+DEx4 work 3 alu 0 22 b@:1>DP`MU=UIedJA7^TU1
+l18
+L15
+VMF?4oO6cN>GNolc9SfIHO0
+!s100 PIDlU@3a1Xm?P^YPhXnLe1
 R7
 32
 R8
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Ealu_testbench
-Z14 w1623645624
+Z14 w1623670407
 R2
 R1
 R4
@@ -73,11 +73,11 @@ R13
 Aalu_testbench1
 R2
 R1
-Z19 DEx4 work 13 alu_testbench 0 22 h7M;VIGUImTL9oQ4IN^X82
+DEx4 work 13 alu_testbench 0 22 h7M;VIGUImTL9oQ4IN^X82
 l22
 L8
-Z20 V:N_6dBKQlVnX>j:3E2Ioj0
-Z21 !s100 TDNfzS4:K4a2K88JzH75X0
+Vz1z_NfXMKfOU^mWhW?o921
+!s100 KF>8:RQfEBNQWRD@?6_kl3
 R7
 32
 R8
@@ -89,13 +89,13 @@ R18
 R12
 R13
 Edatamemeory
-Z22 w1623594433
+Z19 w1623594433
 R3
 R2
 R1
 R4
-Z23 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd
-Z24 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd
+Z20 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd
+Z21 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd
 l0
 L5
 VLXE;6RICXdG8BAU3TEhL91
@@ -104,9 +104,9 @@ R7
 32
 R8
 !i10b 1
-Z25 !s108 1623663468.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd|
-Z27 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd|
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd|
+Z23 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Data_Memory.vhd|
 !i113 1
 R12
 R13
@@ -123,20 +123,178 @@ R7
 32
 R8
 !i10b 1
-R25
-R26
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eflagregister
+Z24 w1623670292
+R2
+R1
+R4
+Z25 8K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd
+Z26 FK:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd
+l0
+L4
+Vn^^Q;b42o0V9P?8Hbgn7S0
+!s100 oZj0L@9W?f@ggE[z8ZC671
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd|
+Z28 !s107 K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd|
+!i113 1
+R12
+R13
+Aflagregister1
+R2
+R1
+Z29 DEx4 work 12 flagregister 0 22 n^^Q;b42o0V9P?8Hbgn7S0
+l13
+L12
+VA1>51@nf6h<[gfRYl;L6_3
+!s100 KJ9IX=Se;Y[SeQY:j05`61
+R7
+32
+R8
+!i10b 1
+R9
 R27
+R28
+!i113 1
+R12
+R13
+Aarch1
+R2
+R1
+R29
+l13
+L12
+V`gO;9I]T3_45OIQ2f1iGk3
+!s100 6U275_[_XTel[RGPM`IU21
+R7
+32
+Z30 !s110 1623669908
+!i10b 1
+Z31 !s108 1623669908.000000
+R27
+R28
+!i113 1
+R12
+R13
+w1623669025
+Eforwardingunit
+Z32 w1623670285
+R1
+R2
+R3
+R4
+Z33 8K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd
+Z34 FK:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd
+l0
+L5
+V=K775]Q9F1hAjO3T2ZoFd0
+!s100 XQZJFM94LR2Xcn_J9eW[n2
+R7
+32
+Z35 !s110 1623671047
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd|
+Z37 !s107 K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd|
+!i113 1
+R12
+R13
+Aforwardingunit1
+R1
+R2
+R3
+Z38 DEx4 work 14 forwardingunit 0 22 =K775]Q9F1hAjO3T2ZoFd0
+l13
+L12
+VlR7nfU:_5=[2JZ57@ZOnE2
+!s100 D3GUBi]3VZ]7]zO?gmoSB2
+R7
+32
+R35
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Aarch1
+R1
+R2
+R3
+R38
+l13
+L12
+VPE^emC00B0_z>nFT_eN>P0
+!s100 @OH?nU3GFPLNoVzAzo8KD0
+R7
+32
+R30
+!i10b 1
+R31
+R36
+R37
+!i113 1
+R12
+R13
+w1623669904
+Efu_testbench
+Z39 w1623670916
+R2
+R1
+R4
+Z40 8K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\FU_TestBench.vhd
+Z41 FK:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\FU_TestBench.vhd
+l0
+L4
+VlZ@_WDgNOjkiSgGF2XbVA1
+!s100 9`UXD97oiUL_fKLh^jJ>O0
+R7
+32
+R35
+!i10b 1
+Z42 !s108 1623671047.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\FU_TestBench.vhd|
+Z44 !s107 K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\FU_TestBench.vhd|
+!i113 1
+R12
+R13
+Afu_testbench1
+R2
+R1
+Z45 DEx4 work 12 fu_testbench 0 22 lZ@_WDgNOjkiSgGF2XbVA1
+l19
+L7
+Z46 VRVZBA`:K1z`Aj5XlSdz8@1
+Z47 !s100 on^CghS`E8__MTFE<LoY]3
+R7
+32
+R35
+!i10b 1
+R42
+R43
+R44
 !i113 1
 R12
 R13
 Einstructionmemory
-R22
+R19
 R3
 R2
 R1
 R4
-Z28 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd
-Z29 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd
+Z48 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd
+Z49 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd
 l0
 L5
 V^H45kACPFE?cL9B[9@8TJ2
@@ -146,8 +304,8 @@ R7
 R8
 !i10b 1
 R9
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd|
-Z31 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd|
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd|
+Z51 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd|
 !i113 1
 R12
 R13
@@ -165,30 +323,30 @@ R7
 R8
 !i10b 1
 R9
-R30
-R31
+R50
+R51
 !i113 1
 R12
 R13
 Eram
-Z32 w1623540993
+Z52 w1623540993
 R3
 R2
 R1
-Z33 dD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor
-Z34 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
-Z35 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+Z53 dD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor
+Z54 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+Z55 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
 l0
 L5
 V9bFnGO`VbYR2iU`jdm9l`1
 !s100 6Tm0T4?deW?MNfNV2laVC2
 R7
 32
-Z36 !s110 1623541320
+Z56 !s110 1623541320
 !i10b 1
-Z37 !s108 1623541319.000000
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
-Z39 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
+Z57 !s108 1623541319.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
+Z59 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
 !i113 1
 R12
 R13
@@ -203,11 +361,11 @@ VH7dPKGi<EaR^;gUGBK=:a0
 !s100 9c=_T;HQSO_Y[FlKAQ3l22
 R7
 32
-R36
+R56
 !i10b 1
-R37
-R38
-R39
+R57
+R58
+R59
 !i113 1
 R12
 R13
