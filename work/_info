@@ -7,127 +7,710 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/Spring 2021/Arch/lab exam
-Edatamemeory
-Z0 w1623548662
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor
-Z5 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
-Z6 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
-l0
-L5
-VLXE;6RICXdG8BAU3TEhL91
-!s100 iK::;JJ:ME6GWg3]I;a^90
-Z7 OV;C;10.5b;63
-32
-Z8 !s110 1623674033
+Z0 dD:/Spring 2021/Arch/lab exam
+<<<<<<< HEAD
+Z1 !s110 1623541320
 !i10b 1
-Z9 !s108 1623674033.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
-Z11 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
-!i113 1
-Z12 o-work work -2002 -explicit
-Z13 tExplicit 1 CvgOpt 0
-Adatamemeory1
+Z2 !s108 1623541319.000000
+Z3 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU.vhd|
+Z4 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU.vhd|
+Z5 =======
 R1
+!i10b 1
 R2
-R3
-Z14 DEx4 work 11 datamemeory 0 22 LXE;6RICXdG8BAU3TEhL91
-l23
-L18
-Z15 VgXd[aZdk@S`IF7YKIPL<T1
-Z16 !s100 XYc?:>fE<D3QMHAhF4l^J2
-R7
-32
-R8
-!i10b 1
-R9
-R10
-R11
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
+Z7 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
 !i113 1
-R12
-R13
-Einstructionmemory
-Z17 w1623606663
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+R0
+<<<<<<< HEAD
 R1
-R2
-R3
-R4
-Z18 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
-Z19 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
-l0
-L5
-V^H45kACPFE?cL9B[9@8TJ2
-!s100 48bMO6W@K8[I1zhgHz1O]0
-R7
-32
-R8
 !i10b 1
-R9
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
-Z21 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
-!i113 1
-R12
-R13
-Ainstructionmemory1
-R1
-R2
-R3
-DEx4 work 17 instructionmemory 0 22 ^H45kACPFE?cL9B[9@8TJ2
-l20
-L16
-VjSnR0BAXQ?_EEcHD^PI9a3
-!s100 CjH^Cb8]hONVnJ:GaMI:U3
-R7
-32
-R8
-!i10b 1
-R9
-R20
-R21
-!i113 1
-R12
-R13
-Eram
-Z22 w1623540993
-R1
 R2
 R3
 R4
 R5
-R6
-l0
-L5
-V9bFnGO`VbYR2iU`jdm9l`1
-!s100 6Tm0T4?deW?MNfNV2laVC2
-R7
-32
-Z23 !s110 1623541320
+R1
 !i10b 1
-Z24 !s108 1623541319.000000
+R2
+R6
+R7
+R0
+<<<<<<< HEAD
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+Z11 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+!i113 1
+R8
+R9
+R0
+<<<<<<< HEAD
 R10
 R11
+R5
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd|
+Z13 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd|
+R0
+<<<<<<< HEAD
+Z14 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+Z15 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+R5
+8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd
+FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z16 DEx4 work 11 datamemeory 0 22 LXE;6RICXdG8BAU3TEhL91
+R5
+Z17 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z18 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z19 dE:/College/Year 21 Spring/Arch/Project/Harvard-Processor
+Z20 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Data_Memory.vhd
+Z21 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Data_Memory.vhd
+l0
+L5
+Z22 VLXE;6RICXdG8BAU3TEhL91
+Z23 !s100 iK::;JJ:ME6GWg3]I;a^90
+Z24 OV;C;10.5b;63
+32
+Z25 !s110 1623674538
+!i10b 1
+Z26 !s108 1623674538.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Data_Memory.vhd|
+Z28 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Data_Memory.vhd|
 !i113 1
-R12
-R13
-Aram1
-R1
-R2
+R8
+R9
+Adatamemeory1
+Z29 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R17
+R18
+R16
+<<<<<<< HEAD
+!s110 1623674033
+!i10b 1
+!s108 1623674033.000000
+R6
+R7
+R5
+R25
+!i10b 1
+R26
 R3
+R4
+R0
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+!i113 1
+R8
+R9
+R0
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+!i113 1
+R8
+R9
+R0
+Aram1
+R29
+R17
+R18
 DEx4 work 3 ram 0 22 9bFnGO`VbYR2iU`jdm9l`1
 l22
 L18
 VH7dPKGi<EaR^;gUGBK=:a0
 !s100 9c=_T;HQSO_Y[FlKAQ3l22
-R7
-32
-R23
-!i10b 1
 R24
+32
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+R18
+R19
+Z30 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd
+Z31 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd
+l0
+L5
+Z32 V05k=Z49KN]BK66[gPMJaQ2
+Z33 !s100 3<725gWXMG9>>>[:T:=If3
+R24
+32
+Z34 !s110 1623674539
+!i10b 1
+Z35 !s108 1623674539.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd|
+Z37 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd|
+!i113 1
+R8
+R9
+Apcadder
+R29
+R17
+R18
+Z38 DEx4 work 7 pcadder 0 22 05k=Z49KN]BK66[gPMJaQ2
+l13
+L12
+Z39 VA^6L8OI=NHF3<d>NnBN700
+Z40 !s100 [k8jZczOmP4F8IFR7c^LG1
+R24
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R8
+R9
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+!i113 1
+R8
+R9
+R0
+Ainstructionmemory1
+R29
+R17
+R18
+Z41 DEx4 work 17 instructionmemory 0 22 ^H45kACPFE?cL9B[9@8TJ2
+l20
+L16
+Z42 VjSnR0BAXQ?_EEcHD^PI9a3
+Z43 !s100 CjH^Cb8]hONVnJ:GaMI:U3
+R24
+32
+R25
+!i10b 1
+R26
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+l0
+L5
+Z44 V^H45kACPFE?cL9B[9@8TJ2
+Z45 !s100 48bMO6W@K8[I1zhgHz1O]0
+R24
+32
+R25
+!i10b 1
+R26
+R0
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+R18
+R19
+Z46 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd
+Z47 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd
+l0
+L5
+Z48 V3HeFgOEAQfo1ShZKcWB_B2
+Z49 !s100 93<KM>d34IB3Q6?[6g`o10
+R24
+32
+R34
+!i10b 1
+R26
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd|
+Z51 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd|
+!i113 1
+R8
+R9
+Aibuffer1
+R29
+R17
+R18
+Z52 DEx4 work 7 ibuffer 0 22 3HeFgOEAQfo1ShZKcWB_B2
+l18
+L14
+Z53 VEN^PhfO<JbMPl^iHboHTn2
+Z54 !s100 bBWfFASb5PKdV=iL<m[PF1
+R24
+32
+R34
+!i10b 1
+R26
+R50
+R51
+!i113 1
+R8
+R9
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+l23
+L18
+Z55 VgXd[aZdk@S`IF7YKIPL<T1
+Z56 !s100 XYc?:>fE<D3QMHAhF4l^J2
+R24
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R8
+R9
+R0
+>>>>>>> 8374ddd2bf59af2060f71b454cc13cdec0a1cac2
+!i113 1
+R8
+R9
+R0
+Aarch1
+R18
+R17
+R29
+DEx4 work 3 alu 0 22 b@:1>DP`MU=UIedJA7^TU1
+l18
+L15
+VMF?4oO6cN>GNolc9SfIHO0
+!s100 PIDlU@3a1Xm?P^YPhXnLe1
+R24
+32
+R25
+!i10b 1
+R26
+R3
+R4
+!i113 1
+R8
+R9
+Ealu
+Z57 w1623673944
+R18
+R17
+R29
+R19
+8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU.vhd
+FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU.vhd
+l0
+L5
+Vb@:1>DP`MU=UIedJA7^TU1
+!s100 F>oXj<TT8XUbkVRNmN;Kf2
+R24
+32
+Ealu_testbench
+R57
+R17
+R18
+R19
+Z58 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd
+Z59 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd
+l0
+L4
+Vh7M;VIGUImTL9oQ4IN^X82
+!s100 36CJnRJ@hPYi6LGa`CnG82
+R24
+32
+R25
+!i10b 1
+R26
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd|
+Z61 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd|
+!i113 1
+R8
+R9
+Aalu_testbench1
+R17
+R18
+DEx4 work 13 alu_testbench 0 22 h7M;VIGUImTL9oQ4IN^X82
+l22
+L8
+Vz1z_NfXMKfOU^mWhW?o921
+!s100 KF>8:RQfEBNQWRD@?6_kl3
+R24
+32
+R25
+!i10b 1
+R26
+R60
+R61
+!i113 1
+R8
+R9
+Edatamemeory
+Z62 w1623548662
+R29
+R17
+R18
+Z63 dD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor
+Z64 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+Z65 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd
+l0
+L5
+R22
+R23
+R24
+32
+Z66 !s110 1623676591
+!i10b 1
+Z67 !s108 1623676591.000000
+R6
+R7
+!i113 1
+R8
+R9
+Adatamemeory1
+R29
+R17
+R18
+R16
+l23
+L18
+R55
+R56
+R24
+32
+R66
+!i10b 1
+R67
+R6
+R7
+!i113 1
+R8
+R9
+Eflagregister
+R57
+R17
+R18
+R19
+Z68 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Flag_Register.vhd
+Z69 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Flag_Register.vhd
+l0
+L4
+Vn^^Q;b42o0V9P?8Hbgn7S0
+!s100 oZj0L@9W?f@ggE[z8ZC671
+R24
+32
+R34
+!i10b 1
+R35
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Flag_Register.vhd|
+Z71 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Flag_Register.vhd|
+!i113 1
+R8
+R9
+Aflagregister1
+R17
+R18
+Z72 DEx4 work 12 flagregister 0 22 n^^Q;b42o0V9P?8Hbgn7S0
+l13
+L12
+VA1>51@nf6h<[gfRYl;L6_3
+!s100 KJ9IX=Se;Y[SeQY:j05`61
+R24
+32
+R34
+!i10b 1
+R35
+R70
+R71
+!i113 1
+R8
+R9
+Aarch1
+R17
+R18
+R72
+l13
+L12
+V`gO;9I]T3_45OIQ2f1iGk3
+!s100 6U275_[_XTel[RGPM`IU21
+R24
+32
+Z73 !s110 1623669908
+!i10b 1
+Z74 !s108 1623669908.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd|
+!s107 K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd|
+!i113 1
+R8
+R9
+w1623669025
+FK:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd
+8K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd
+Eforwardingunit
+R57
+R18
+R17
+R29
+R19
+Z75 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Forwarding_Unit.vhd
+Z76 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Forwarding_Unit.vhd
+l0
+L5
+V=K775]Q9F1hAjO3T2ZoFd0
+!s100 XQZJFM94LR2Xcn_J9eW[n2
+R24
+32
+R34
+!i10b 1
+R35
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Forwarding_Unit.vhd|
+Z78 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/Forwarding_Unit.vhd|
+!i113 1
+R8
+R9
+Aforwardingunit1
+R18
+R17
+R29
+Z79 DEx4 work 14 forwardingunit 0 22 =K775]Q9F1hAjO3T2ZoFd0
+l13
+L12
+VlR7nfU:_5=[2JZ57@ZOnE2
+!s100 D3GUBi]3VZ]7]zO?gmoSB2
+R24
+32
+R34
+!i10b 1
+R35
+R77
+R78
+!i113 1
+R8
+R9
+Aarch1
+R18
+R17
+R29
+R79
+l13
+L12
+VPE^emC00B0_z>nFT_eN>P0
+!s100 @OH?nU3GFPLNoVzAzo8KD0
+R24
+32
+R73
+!i10b 1
+R74
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd|
+!s107 K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd|
+!i113 1
+R8
+R9
+w1623669904
+FK:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd
+8K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd
+Efu_testbench
+R57
+R17
+R18
+R19
+Z80 8E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/FU_TestBench.vhd
+Z81 FE:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/FU_TestBench.vhd
+l0
+L4
+VlZ@_WDgNOjkiSgGF2XbVA1
+!s100 9`UXD97oiUL_fKLh^jJ>O0
+R24
+32
+R34
+!i10b 1
+R35
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/FU_TestBench.vhd|
+Z83 !s107 E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/FU_TestBench.vhd|
+!i113 1
+R8
+R9
+Afu_testbench1
+R17
+R18
+DEx4 work 12 fu_testbench 0 22 lZ@_WDgNOjkiSgGF2XbVA1
+l19
+L7
+VRVZBA`:K1z`Aj5XlSdz8@1
+!s100 on^CghS`E8__MTFE<LoY]3
+R24
+32
+R34
+!i10b 1
+R35
+R82
+R83
+!i113 1
+R8
+R9
+Eibuffer
+Z84 w1623676471
+R29
+R17
+R18
+R63
+Z85 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/IBuffer.vhd
+Z86 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/IBuffer.vhd
+l0
+L5
+R48
+R49
+R24
+32
+R66
+!i10b 1
+R67
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/IBuffer.vhd|
+Z88 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/IBuffer.vhd|
+!i113 1
+R8
+R9
+Aibuffer1
+R29
+R17
+R18
+R52
+l18
+L14
+R53
+R54
+R24
+32
+R66
+!i10b 1
+R67
+R87
+R88
+!i113 1
+R8
+R9
+Einstructionmemory
+Z89 w1623606663
+R29
+R17
+R18
+R63
+R14
+R15
+l0
+L5
+R44
+R45
+R24
+32
+R66
+!i10b 1
+R67
 R10
 R11
 !i113 1
+R8
+R9
+Ainstructionmemory1
+R29
+R17
+R18
+R41
+l20
+L16
+R42
+R43
+R24
+32
+R66
+!i10b 1
+R67
+R10
+R11
+!i113 1
+R8
+R9
+Einstructionmemory
+R89
+R5
+R0
+Epcadder
+R84
+R29
+R17
+R18
+R63
+Z90 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/PCAdder.vhd
+Z91 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/PCAdder.vhd
+l0
+L5
+R32
+R33
+R24
+32
+R66
+!i10b 1
+R67
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/PCAdder.vhd|
+Z93 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/PCAdder.vhd|
+!i113 1
+R8
+R9
+Apcadder
+R29
+R17
+R18
+R38
+l13
+L12
+R39
+R40
+R24
+32
+R66
+!i10b 1
+R67
+R92
+R93
+!i113 1
+R8
+R9
+Eram
+Z94 w1623540993
+R29
+R17
+R18
+R63
+R64
+R65
+l0
+L5
+V9bFnGO`VbYR2iU`jdm9l`1
+!s100 6Tm0T4?deW?MNfNV2laVC2
+R24
+32
+Eram
+R94
+R5
 R12
 R13
+!i113 1
+R8
+R9
+R0
+Esignextend
+R84
+R29
+R17
+R18
+R63
+Z95 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/SignExtend.vhd
+Z96 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/SignExtend.vhd
+l0
+L5
+Vj@1i4M9QIKDRCVzAB7DA10
+!s100 YJ2V8b6^aBKMTBW1PiIT60
+R24
+32
+R66
+!i10b 1
+R67
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/SignExtend.vhd|
+Z98 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/SignExtend.vhd|
+!i113 1
+R8
+R9
+Asignextend
+R29
+R17
+R18
+Z99 DEx4 work 10 signextend 0 22 j@1i4M9QIKDRCVzAB7DA10
+l13
+L12
+Z100 VnYLC][zeo:Bh0UU;KA`iH2
+Z101 !s100 VEnBEET0BIf2Ok^@A^6LI0
+R24
+32
+R66
+!i10b 1
+R67
+R97
+R98
+!i113 1
+R8
+R9
