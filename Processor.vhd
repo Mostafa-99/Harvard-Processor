@@ -43,6 +43,55 @@ architecture processor1 of Processor is
             immediate_value_sign_extended : out std_logic_vector(31 downto 0) --The value of the immediate value after sign extending
         );
     end component;
+
+    component ControlUnit is
+        port (
+            opCode : in std_logic_vector(5 downto 0);
+            reset : in std_logic;
+            controlSignals : out std_logic_vector(19 downto 0)
+        );
+    end component ControlUnit;
+
+    component IdExBuff is
+        port (
+            clk, rst, enable : in std_logic;
+
+            incrementedPCInp : in std_logic_vector(32 - 1 downto 0);
+            --nonPickedAddressInp : in std_logic_vector(32 - 1 downto 0);
+            readD1 : in std_logic_vector(32 - 1 downto 0);
+            readD2 : in std_logic_vector(32 - 1 downto 0);
+            opCode : in std_logic_vector(5 downto 0);
+            iValSignExtended : in std_logic_vector(32 - 1 downto 0);
+            rsAddr : in std_logic_vector(2 downto 0);
+            rdAddr : in std_logic_vector(2 downto 0);
+            --control signalsss
+            controlSigs : in std_logic_vector(20 - 1 downto 0);
+            -------------------------------------- Output
+            incrementedPCOut : out std_logic_vector(32 - 1 downto 0);
+            --nonPickedAddressOut : out std_logic_vector(32 - 1 downto 0);
+            readD1Out : out std_logic_vector(32 - 1 downto 0);
+            readD2Out : out std_logic_vector(32 - 1 downto 0);
+            opCodeOut : out std_logic_vector(5 downto 0);
+            iValSignExtendedOut : out std_logic_vector(32 - 1 downto 0);
+            rsAddrOut : out std_logic_vector(2 downto 0);
+            rdAddrOut : out std_logic_vector(2 downto 0);
+            --control signalsss
+            controlSigsOut : out std_logic_vector(20 - 1 downto 0)
+        );
+    end component;
+
+    component HazardDetectionUnit is
+        port (
+            fdRsAddress : in std_logic_vector(2 downto 0);
+            fdRdAddress : in std_logic_vector(2 downto 0);
+            deRdAddress : in std_logic_vector(2 downto 0);
+            deMemoryRead : in std_logic;
+            fdWrite : out std_logic;
+            controlMuxSelection : out std_logic;
+            pcWrite : out std_logic
+        );
+    end component;
+
     --Fetch Stage sig
     signal pcWrite : std_logic;
     signal instructionOutF : std_logic_vector(32 - 1 downto 0);
@@ -54,17 +103,20 @@ architecture processor1 of Processor is
     signal readD1 : std_logic_vector(32 - 1 downto 0);
     signal readD2 : std_logic_vector(32 - 1 downto 0);
     signal iValSignExtended : std_logic_vector(32 - 1 downto 0);
+    signal controlSigs : std_logic_vector(20 - 1 downto 0);
     --
     --TODO: assign after adding last buffer
     signal MemWB_WB : std_logic; --Write back signal
     signal MemWB_Rd : std_logic_vector (2 downto 0);
     signal MemWB_Val : std_logic_vector(31 downto 0);
 begin
-    pcWrite <= '1'; --input from ctrl unit
+    pcWrite <= '1'; --input from hazard detect
+    IfId_En <= '1'; --input hazard detection
     fetchingUnit : FetchStage port map(clk, rst, pcWrite, instructionOutF, incrementedPCOutF);
     IfId : IfIdBuff port map(clk, rst, IfId_En, instructionOutF, incrementedPCOutF, IfId_instruction, IfId_incrementedPC);
     decodingUnit : DecodeStage port map(clk, rst, IfId_instruction(25 downto 23), IfId_instruction(22 downto 20), IfId_instruction(15 downto 0), MemWB_WB, MemWB_Rd, MemWB_Val, readD1, readD2, iValSignExtended);
-    
+    cu : ControlUnit port map(IfId_instruction(31 downto 26), rst, controlSigs);
 
-
+    --work in progress: IdEx
+    --IdEx : IdExBuff port map(clk, rst, );
 end architecture;

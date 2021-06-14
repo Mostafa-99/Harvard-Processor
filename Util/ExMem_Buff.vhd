@@ -2,6 +2,8 @@ library ieee;
 use IEEE.numeric_std.all;
 use ieee.std_logic_1164.all;
 
+
+----------------------------TODO:---------------------------------
 entity ExMemBuff is
     port (
         clk, rst, enable : in std_logic;

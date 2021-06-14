@@ -2,16 +2,15 @@ library ieee;
 use ieee.std_logic_1164.all;
 entity ControlUnit is
     port (
-        oppCode:in std_logic_vector(5 downto 0);
+        opCode:in std_logic_vector(5 downto 0);
         reset: in std_logic;
-        flush: in std_logic;
         controlSignals:out std_logic_vector(19 downto 0)
     );
 end entity ControlUnit;
 architecture ControlUnitArchitecture of ControlUnit is
     signal tempControlSignals: std_logic_vector(19 downto 0);
     begin
-        with oppCode select
+        with opCode select
             tempControlSignals <=
                     "00000000000000000000" when "000000", --NOP
                     "00000000001100000100" when "000001", --SETC
@@ -42,6 +41,5 @@ architecture ControlUnitArchitecture of ControlUnit is
                     "00000011101000001001" when "011101", --RET
                     "11111111111111111111" when others; --RET
         controlSignals <= "00000011110000000000" when reset='1' else tempControlSignals;
-        controlSignals <= "00000000000000000000" when flush='1' else tempControlSignals;
 
 end ControlUnitArchitecture;
