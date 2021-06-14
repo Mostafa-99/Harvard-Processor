@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.ALL;
 
 ENTITY ForwardingUnit IS
     PORT (
-        IdEx_Rs, IdEx_Rd, ExMem_Rd, MemWB_Rd : IN STD_LOGIC_VECTOR (7 DOWNTO 0); --Register values
+        IdEx_Rs, IdEx_Rd, ExMem_Rd, MemWB_Rd : IN STD_LOGIC_VECTOR (2 DOWNTO 0); --Register values
         ExMem_WB, MemWB_WB : IN STD_LOGIC; --Write back signal
         R1_signal, R2_signal : OUT STD_LOGIC_VECTOR (1 DOWNTO 0)); --Signal for mux for both inputs of the ALU
 END ENTITY ForwardingUnit;
