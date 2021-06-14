@@ -15,9 +15,9 @@ Vb@:1>DP`MU=UIedJA7^TU1
 !s100 F>oXj<TT8XUbkVRNmN;Kf2
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1623699016
+Z8 !s110 1623701777
 !i10b 1
-Z9 !s108 1623699016.000000
+Z9 !s108 1623701777.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd|
 Z11 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd|
 !i113 1
@@ -95,11 +95,11 @@ VLXE;6RICXdG8BAU3TEhL91
 !s100 iK::;JJ:ME6GWg3]I;a^90
 R7
 32
-Z22 !s110 1623699015
+R8
 !i10b 1
-Z23 !s108 1623699015.000000
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Memory/Data_Memory.vhd|
-Z25 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Memory/Data_Memory.vhd|
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Memory/Data_Memory.vhd|
+Z23 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Memory/Data_Memory.vhd|
 !i113 1
 R12
 R13
@@ -114,32 +114,32 @@ VoLN_ACFQKS43;?D2?;?;]0
 !s100 c>EzjnNTmV8AhAL4NSUZT0
 R7
 32
-R22
+R8
 !i10b 1
+R9
+R22
 R23
-R24
-R25
 !i113 1
 R12
 R13
 Edataregister
-Z26 w1623698412
+Z24 w1623698412
 R2
 R1
 R4
-Z27 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd
-Z28 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd
+Z25 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd
+Z26 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd
 l0
 L4
 V2TUS?gk=i>Fc@I>?<Q8Um2
 !s100 oZQ4J9YZ^C6e=jQ^d0dGY2
 R7
 32
-Z29 !s110 1623699017
+Z27 !s110 1623701779
 !i10b 1
-Z30 !s108 1623699017.000000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd|
-Z32 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd|
+Z28 !s108 1623701779.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd|
+Z30 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Data_Register.vhd|
 !i113 1
 R12
 R13
@@ -153,30 +153,30 @@ VMKI6b<2W;JGabUS0AWPR00
 !s100 9dgEX][YlUhfcogHEFR;P1
 R7
 32
-R29
+R27
 !i10b 1
+R28
+R29
 R30
-R31
-R32
 !i113 1
 R12
 R13
 Edecoder3x8
-Z33 w1623698411
+Z31 w1623698411
 R2
 R1
 R4
-Z34 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd
-Z35 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd
+Z32 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd
+Z33 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd
 l0
 L5
 VMLbG>NZ@[me8kn8zV5C^k3
 !s100 2me<R]4_m0n8odC`]:_BW2
 R7
 32
-R29
+Z34 !s110 1623701778
 !i10b 1
-R30
+Z35 !s108 1623701778.000000
 Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd|
 Z37 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Decoder.vhd|
 !i113 1
@@ -192,9 +192,9 @@ V<TBT5@KX7W8^BJW>daL612
 !s100 Pil4aYT:kKC`[dU?W3WT@0
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R36
 R37
 !i113 1
@@ -214,9 +214,9 @@ V7`UGGB^Bbdj_O0zmPQBHi3
 !s100 og[`Db?E9GeQ;[Ze0V>V02
 R7
 32
-R29
+R27
 !i10b 1
-R30
+R28
 Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Decode_Stage.vhd|
 Z42 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Decode_Stage.vhd|
 !i113 1
@@ -233,9 +233,9 @@ VPcZ:R0D^e=]YZihjYM[dm1
 !s100 V]Y@GW;<KBg^z?1WonE5]1
 R7
 32
-R29
+R27
 !i10b 1
-R30
+R28
 R41
 R42
 !i113 1
@@ -255,9 +255,9 @@ VLZ8b[7=BIMC]0WnhF^Qk^3
 !s100 3@4bXnBVcTQOolzcU?8?m0
 R7
 32
-R8
+R34
 !i10b 1
-R9
+R35
 Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Execution_Stage.vhd|
 Z47 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Execution_Stage.vhd|
 !i113 1
@@ -274,9 +274,9 @@ V]SN_Tm[0nQ3lz3@gL6f1W0
 !s100 5F`k[WhR4VF:XhIVM1ofz0
 R7
 32
-R8
+R34
 !i10b 1
-R9
+R35
 R46
 R47
 !i113 1
@@ -335,9 +335,9 @@ VK`1DMeILB=IeGB_7EI8zm3
 !s100 HnS]cAbad@I8RGaj5d>kg0
 R7
 32
-R8
+R34
 !i10b 1
-R9
+R35
 Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/Forwarding_Unit.vhd|
 Z57 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/Forwarding_Unit.vhd|
 !i113 1
@@ -354,9 +354,9 @@ VlR7nfU:_5=[2JZ57@ZOnE2
 !s100 D3GUBi]3VZ]7]zO?gmoSB2
 R7
 32
-R8
+R34
 !i10b 1
-R9
+R35
 R56
 R57
 !i113 1
@@ -375,9 +375,9 @@ VlZ@_WDgNOjkiSgGF2XbVA1
 !s100 9`UXD97oiUL_fKLh^jJ>O0
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/FU_TestBench.vhd|
 Z62 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/FU_TestBench.vhd|
 !i113 1
@@ -393,9 +393,9 @@ VRVZBA`:K1z`Aj5XlSdz8@1
 !s100 on^CghS`E8__MTFE<LoY]3
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R61
 R62
 !i113 1
@@ -496,9 +496,9 @@ VboHm2JDBPj;=14@A6KHg31
 !s100 BOcgZ5gm:AiDeNam8X8Om1
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/MUX2.vhd|
 Z74 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/MUX2.vhd|
 !i113 1
@@ -514,9 +514,9 @@ V8oJEM[bXzhf?Ozz@mOg192
 !s100 2f<1FhM25Lz`d0:bEf5493
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R73
 R74
 !i113 1
@@ -535,9 +535,9 @@ V0eh^FC>43ai1EY6DZE9om1
 !s100 LVYh5l>g2EMgPo:PHa<1?1
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/MUX4.vhd|
 Z79 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/MUX4.vhd|
 !i113 1
@@ -553,9 +553,9 @@ VaTQkf1cL;S]YI<6<KMI6;0
 !s100 ZWf1mTUbCJHP3;`lK_l5@3
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R78
 R79
 !i113 1
@@ -575,9 +575,9 @@ Vj0V6;`MCVIH0DX<?Y<o4K1
 !s100 7kTlBm`F?8z^ec;fhoOP_3
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/PCAdder.vhd|
 Z83 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Util/PCAdder.vhd|
 !i113 1
@@ -594,9 +594,9 @@ VCVR1_in2Hof`G2[`=a8<l3
 !s100 mdfZlam7PPWaAUP7Oo@>M2
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R82
 R83
 !i113 1
@@ -615,9 +615,9 @@ V5;B05JW=d1R[OKU:>9QT20
 !s100 ;c?<SUb8>amf7YWd6U:3T1
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Register_File.vhd|
 Z88 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/RegisterFile/Register_File.vhd|
 !i113 1
@@ -633,9 +633,9 @@ VCelULQ>6oZ6;goLNc;7=72
 !s100 JlX=o=?^<05A2?ISR1Z4B1
 R7
 32
-R29
+R34
 !i10b 1
-R30
+R35
 R87
 R88
 !i113 1
@@ -679,6 +679,47 @@ R8
 R9
 R91
 R92
+!i113 1
+R12
+R13
+Ewritebackstage
+Z93 w1623701762
+R1
+R2
+R3
+R4
+Z94 8K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Write_Back_Stage.vhd
+Z95 FK:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Write_Back_Stage.vhd
+l0
+L5
+VYWV6PT2AG1k]7j=020]1?3
+!s100 `O@`blAYTmChPYSg`fLHf3
+R7
+32
+R27
+!i10b 1
+R28
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Write_Back_Stage.vhd|
+Z97 !s107 K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Stages/Write_Back_Stage.vhd|
+!i113 1
+R12
+R13
+Awritebackstage1
+R1
+R2
+R3
+DEx4 work 14 writebackstage 0 22 YWV6PT2AG1k]7j=020]1?3
+l32
+L17
+Vjm:GUF:5Am1imN=TF?9O]3
+!s100 [C8Ee_F3lD_`bnA`ogaEI1
+R7
+32
+R27
+!i10b 1
+R28
+R96
+R97
 !i113 1
 R12
 R13
