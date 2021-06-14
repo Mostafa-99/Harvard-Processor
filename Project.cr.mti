@@ -33,6 +33,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ALU_testbench
 -- Compiling architecture ALU_testbench1 of ALU_testbench
 
+<<<<<<< HEAD
 } {} {}} {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/Forwarding_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -42,6 +43,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ForwardingUnit
 -- Compiling architecture ForwardingUnit1 of ForwardingUnit
 
+=======
+>>>>>>> 9d6a271bcad8b64329a0b77d02c4e1f85b5ece4b
 } {} {}} ./Data_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -77,7 +80,28 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity PCAdder
 -- Compiling architecture pcAdder of PCAdder
 
+<<<<<<< HEAD
 } {} {}} ./Stages/Execution_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\Stages\Execution_Stage.vhd}
+=======
+} {} {}} ./Util/Stack_Ptr_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Util/Stack_Ptr_Reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity StackPtrReg
+-- Compiling architecture stackPtrReg of StackPtrReg
+
+} {} {}} ALU/FU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/ALU/FU_TestBench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FU_testbench
+-- Compiling architecture FU_testbench1 of FU_testbench
+
+} {} {}} ./Stages/ExecutionStage.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Stages/ExecutionStage.vhd}
+>>>>>>> 9d6a271bcad8b64329a0b77d02c4e1f85b5ece4b
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
