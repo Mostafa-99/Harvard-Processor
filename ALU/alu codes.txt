@@ -1,0 +1,19 @@
+Instructions:
+SETC	     00001		C = 1, N,Z x
+CLRC	     00010		C = 0, N,Z x
+NOT X	     00011		if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+INC X	     00100		if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+DEC X	     00101		if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+MOV X	     01000		no change for flags
+OUT Rdst     00110      no changes for flags
+IN Rdst         00111      no changes for flags
+X + y	    01001		updates carry, if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+X Im+ Y         01010		same as normal add
+X - y	     01011		updates carry, if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+X AND Y	     01100		if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+X OR Y	     01101		if results in zero, z=1 else z = 0, if <0 , n = 1 else n = 0
+SHL x,y	     01110		carry is the shifted bit
+SHR x, y	     01111		carry is the shifted bit
+
+Flags:
+Zero, Cary, Negative
