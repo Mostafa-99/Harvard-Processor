@@ -79,6 +79,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity IBuffer
 -- Compiling architecture IBuffer1 of IBuffer
 
+} {} {}} {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/MUX2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Year 21 Spring\Arch\Project\Harvard-Processor\MUX2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX2
+-- Compiling architecture mux2 of MUX2
+
+} {} {}} {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/MUX4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Year 21 Spring\Arch\Project\Harvard-Processor\MUX4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX4
+-- Compiling architecture mux4 of MUX4
+
 } {} {}} ALU/FU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/FU_TestBench.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
