@@ -1,20 +1,20 @@
-library ieee;
-use ieee.std_logic_1164.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
 
-entity MUX2 is
-    generic (n : integer := 32);
-    port (
+ENTITY MUX2 IS
+    GENERIC (n : INTEGER := 32);
+    PORT (
 
-        s : in std_logic;
-        data_in1 : in std_logic_vector(n - 1 downto 0);
-        data_in2 : in std_logic_vector(n - 1 downto 0);
-        data_out : out std_logic_vector(n - 1 downto 0));
+        s : IN STD_LOGIC;
+        data_in1 : IN STD_LOGIC_VECTOR(n - 1 DOWNTO 0);
+        data_in2 : IN STD_LOGIC_VECTOR(n - 1 DOWNTO 0);
+        data_out : OUT STD_LOGIC_VECTOR(n - 1 DOWNTO 0));
 
-end entity;
+END ENTITY;
 
-architecture mux2 of MUX2 is
-begin
-    data_out <= data_in1 when s = '0'
-        else
+ARCHITECTURE mux2 OF MUX2 IS
+BEGIN
+    data_out <= data_in1 WHEN s = '0'
+        ELSE
         data_in2;
-end architecture;
+END ARCHITECTURE;
