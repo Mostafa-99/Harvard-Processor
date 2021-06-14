@@ -7,21 +7,41 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ALU
 -- Compiling architecture arch1 of ALU
 
-} {} {}} ./ALU/ALU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd}
+} {} {}} {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/IBuffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ALU_testbench
--- Compiling architecture ALU_testbench1 of ALU_testbench
+-- Loading package NUMERIC_STD
+-- Compiling entity IBuffer
+-- Compiling architecture IBuffer1 of IBuffer
 
-} {} {}} {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd}
+} {} {}} {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/PCAdder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ALU_testbench
--- Compiling architecture ALU_testbench1 of ALU_testbench
+-- Loading package NUMERIC_STD
+-- Compiling entity PCAdder
+-- Compiling architecture pcAdder of PCAdder
+
+} {} {}} {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/SignExtend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Year 21 Spring\Arch\Project\Harvard-Processor\SignExtend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SignExtend
+-- Compiling architecture signExtend of SignExtend
+
+} {} {}} ./Instruction_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstructionMemory
+-- Compiling architecture InstructionMemory1 of InstructionMemory
 
 } {} {}} ./Data_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Data_Memory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -32,13 +52,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity DataMemeory
 -- Compiling architecture DataMemeory1 of DataMemeory
 
-} {} {}} ./Instruction_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/Instruction_Memory.vhd}
+} {} {}} {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity InstructionMemory
--- Compiling architecture InstructionMemory1 of InstructionMemory
+-- Compiling entity ALU_testbench
+-- Compiling architecture ALU_testbench1 of ALU_testbench
+
+} {} {}} ./ALU/ALU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:/College/Year 21 Spring/Arch/Project/Harvard-Processor/ALU/ALU_TestBench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_testbench
+-- Compiling architecture ALU_testbench1 of ALU_testbench
 
 } {} {}}
