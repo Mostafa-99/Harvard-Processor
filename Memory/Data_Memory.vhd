@@ -26,9 +26,9 @@ BEGIN
         IF rst = '1' THEN
             data_memory <= (OTHERS => (OTHERS => '0'));
         ELSIF falling_edge(clk) AND we = '1' THEN
-            data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) <= data_in(n/2 - 1 DOWNTO 0);
-            data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) <= data_in(n - 1 DOWNTO n/2);
+            data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) <= data_in(n/2 - 1 DOWNTO 0);
+            data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) <= data_in(n - 1 DOWNTO n/2);
         END IF;
     END PROCESS;
-    data_out <= data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) & data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))));
+    data_out <= data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) & data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1);
 END ARCHITECTURE;
