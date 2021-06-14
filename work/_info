@@ -22,9 +22,9 @@ VLXE;6RICXdG8BAU3TEhL91
 !s100 iK::;JJ:ME6GWg3]I;a^90
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1623548972
+Z8 !s110 1623674033
 !i10b 1
-Z9 !s108 1623548972.000000
+Z9 !s108 1623674033.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
 Z11 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Adatamemeory1
 R1
 R2
 R3
-DEx4 work 11 datamemeory 0 22 LXE;6RICXdG8BAU3TEhL91
+Z14 DEx4 work 11 datamemeory 0 22 LXE;6RICXdG8BAU3TEhL91
 l23
 L18
-VgXd[aZdk@S`IF7YKIPL<T1
-!s100 XYc?:>fE<D3QMHAhF4l^J2
+Z15 VgXd[aZdk@S`IF7YKIPL<T1
+Z16 !s100 XYc?:>fE<D3QMHAhF4l^J2
 R7
 32
 R8
@@ -50,13 +50,13 @@ R11
 R12
 R13
 Einstructionmemory
-Z14 w1623548905
+Z17 w1623606663
 R1
 R2
 R3
 R4
-Z15 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
-Z16 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+Z18 8D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
+Z19 FD:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd
 l0
 L5
 V^H45kACPFE?cL9B[9@8TJ2
@@ -66,8 +66,8 @@ R7
 R8
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
-Z18 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
+Z21 !s107 D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Instruction_Memory.vhd|
 !i113 1
 R12
 R13
@@ -85,13 +85,13 @@ R7
 R8
 !i10b 1
 R9
-R17
-R18
+R20
+R21
 !i113 1
 R12
 R13
 Eram
-Z19 w1623540993
+Z22 w1623540993
 R1
 R2
 R3
@@ -104,9 +104,9 @@ V9bFnGO`VbYR2iU`jdm9l`1
 !s100 6Tm0T4?deW?MNfNV2laVC2
 R7
 32
-Z20 !s110 1623541320
+Z23 !s110 1623541320
 !i10b 1
-Z21 !s108 1623541319.000000
+Z24 !s108 1623541319.000000
 R10
 R11
 !i113 1
@@ -123,9 +123,9 @@ VH7dPKGi<EaR^;gUGBK=:a0
 !s100 9c=_T;HQSO_Y[FlKAQ3l22
 R7
 32
-R20
+R23
 !i10b 1
-R21
+R24
 R10
 R11
 !i113 1

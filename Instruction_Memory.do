@@ -1,17 +1,16 @@
 vsim -gui work.instructionmemory
-mem load -filltype value -filldata 0000111100001111 -fillradix symbolic /instructionmemory/instruction_memory(6)
-mem load -filltype value -filldata 1111000011110000 -fillradix symbolic /instructionmemory/instruction_memory(7)
+mem load -i {./output.mem} /instructionmemory/instruction_memory
 add wave -position insertpoint  \
 sim:/instructionmemory/address
 add wave -position insertpoint  \
 sim:/instructionmemory/data_out
-force -freeze sim:/instructionmemory/address 16#00000006 0
+force -freeze sim:/instructionmemory/address 16#00000010 0
 run
-force -freeze sim:/instructionmemory/address 16#00000005 0
+force -freeze sim:/instructionmemory/address 16#00000050 0
 run
-force -freeze sim:/instructionmemory/address 16#00000004 0
+force -freeze sim:/instructionmemory/address 16#00000101 0
 run
-force -freeze sim:/instructionmemory/address 16#00000003 0
+force -freeze sim:/instructionmemory/address 16#00000201 0
 run
 force -freeze sim:/instructionmemory/address 16#00000002 0
 run

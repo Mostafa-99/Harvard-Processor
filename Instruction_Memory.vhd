@@ -15,7 +15,7 @@ END ENTITY;
 
 ARCHITECTURE InstructionMemory1 OF InstructionMemory
     IS
-    TYPE instruction_memory_type IS ARRAY(0 TO 2 ** address_n - 1) OF STD_LOGIC_VECTOR(n/2 - 1 DOWNTO 0); --2MB memory -> 2**20 - 1
+    TYPE instruction_memory_type IS ARRAY(0 TO 2 ** address_n - 1) OF STD_LOGIC_VECTOR(n/2 - 1 DOWNTO 0); --1MB memory -> 2**20 - 1
     SIGNAL instruction_memory : instruction_memory_type;
 BEGIN
     data_out <= instruction_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) & instruction_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))));
