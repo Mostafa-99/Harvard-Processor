@@ -20,7 +20,7 @@ begin
     begin
         if rst = '1' then
             data <= (others => '0');
-        elsif rising_edge(clk) then --should make sure this is what's desired
+        elsif rising_edge(clk) then --TODO: make sure this is what's desired
             data <= data_in;
         end if;
     end process;
