@@ -1,4 +1,21 @@
-./ALU/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd}
+{K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/Forwarding_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Forwarding_Unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ForwardingUnit
+-- Compiling architecture ForwardingUnit1 of ForwardingUnit
+
+} {} {}} ./ALU/Flag_Register.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\Flag_Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FlagRegister
+-- Compiling architecture FlagRegister1 of FlagRegister
+
+} {} {}} ./ALU/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,6 +23,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity ALU
 -- Compiling architecture arch1 of ALU
+
+} {} {}} ALU/FU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:\Year 3 CCE\Term 2\Computer Arch\project\Harvard-Processor\ALU\FU_TestBench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FU_testbench
+-- Compiling architecture FU_testbench1 of FU_testbench
+
+} {} {}} {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/ALU/ALU_TestBench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_testbench
+-- Compiling architecture ALU_testbench1 of ALU_testbench
 
 } {} {}} ./Instruction_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {K:/Year 3 CCE/Term 2/Computer Arch/project/Harvard-Processor/Instruction_Memory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
