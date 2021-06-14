@@ -12,9 +12,7 @@ entity IBuffer is
 end entity;
 
 architecture IBuffer1 of IBuffer is
-
     signal data : std_logic_vector(n - 1 downto 0);
-
 begin
     process (clk)
     begin
