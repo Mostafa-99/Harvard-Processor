@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 
 entity FetchStage is
     port (
-        clk, rst : in std_logic;
+        clk, rst, pcWrite : in std_logic
     );
 end entity FetchStage;
 
@@ -13,7 +13,7 @@ architecture FetchStage1 of FetchStage is
     component IBuffer is
         generic (n : integer := 32);
         port (
-            clk, rst : in std_logic;
+            clk, rst, enable : in std_logic;
             data_in : in std_logic_vector(n - 1 downto 0);
             data_out : out std_logic_vector(n - 1 downto 0)
         );
@@ -31,18 +31,32 @@ architecture FetchStage1 of FetchStage is
     component MUX2 is
         generic (n : integer := 32);
         port (
-    
+
             s : in std_logic;
             data_in1 : in std_logic_vector(n - 1 downto 0);
             data_in2 : in std_logic_vector(n - 1 downto 0);
             data_out : out std_logic_vector(n - 1 downto 0));
-    
+
     end component;
 
-    signal addressAfterInc : std_logic_vector(31 downto 0);
-    signal instructionMemOut : std_logic_vector(31 downto 0);
-
+    component PCAdder is
+        port (
+            inc4 : in std_logic;
+            PC_in : in std_logic_vector(32 - 1 downto 0);
+            PC_out : out std_logic_vector(32 - 1 downto 0)
+        );
+    end component;
+    signal iMemOutput : std_logic_vector(31 downto 0);
+    signal PCinput : std_logic_vector(31 downto 0);
+    signal PCoutput : std_logic_vector(31 downto 0);
+    signal zeros : std_logic_vector(31 downto 0);
+    signal iMemInput : std_logic_vector(31 downto 0);
+    signal pcIncremented : std_logic_vector(31 downto 0);
 begin
-    pcRstMux : MUX2 generic map(32) port map(rst,address);
-
+    pcRstMux : MUX2 generic map(32) port map(rst, pcIncremented, iMemOutput, PCinput);
+    pc : IBuffer generic map(32) port map(clk, zeros(0), pcWrite, PCinput, PCoutput);
+    memInputRstMux : MUX2 generic map(32) port map(rst, PCoutput, zeros, iMemInput);
+    iMem : InstructionMemory generic map(32, 20) port map(iMemInput, iMemOutput);
+    pcAdd : PCAdder port map(PCoutput(31), PCoutput, pcIncremented);
+    zeros <= (others => '0');
 end FetchStage1;
