@@ -76,15 +76,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity InstructionMemory
 -- Compiling architecture InstructionMemory1 of InstructionMemory
 
-} {} {}} ./Stages/Memory_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Stages/Memory_Stage.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity MemoryStage
--- Compiling architecture MemoryStage1 of MemoryStage
-
 } {} {}} ./Data_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Data_Memory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -119,6 +110,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity PCAdder
 -- Compiling architecture pcAdder of PCAdder
+
+} {} {}} ./Util/Stack_Ptr_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/Util/Stack_Ptr_Reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity StackPtrReg
+-- Compiling architecture stackPtrReg of StackPtrReg
 
 } {} {}} ALU/FU_TestBench.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:/Spring 2021/Arch/Proj phase2/Code/Harvard-Processor/ALU/FU_TestBench.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
