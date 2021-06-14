@@ -1,5 +1,12 @@
-*
+!.gitignore
+!*.vhd
+!*/*.vhd
+!*.do
+!*/*.do
+!Project.mpf
 
+*
+./work/*
 
 !.gitignore
 !*.vhd
