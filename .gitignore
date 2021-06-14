@@ -1,4 +1,8 @@
-Project.cr.mti
-work/_info
-*.bak
-Project.cr.mti
+*
+
+!.gitignore
+!*.vhd
+!*/*.vhd
+!*.do
+!*/*.do
+!Project.mpf
