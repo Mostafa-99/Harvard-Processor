@@ -31,8 +31,8 @@ SIGNAL mux1_output : STD_LOGIC_VECTOR(31 downto 0);
 
 BEGIN
     --Instantiate the first MUX (to choose between alu result and loaded value)
-    m1: MUX2 generic map(32) port map(MemWB_mem_to_reg, MemWB_data, MemWB_ALU_result, mux1_output);
+    m1: MUX2 generic map(32) port map(MemWB_mem_to_reg, MemWB_ALU_result, MemWB_data, mux1_output);
     --Instantiate the second MUX (to choose between result of the first alu and the input port)
-    m2: MUX2 generic map(32) port map(input_port_enable, input_port, mux1_output, write_back_value);
+    m2: MUX2 generic map(32) port map(input_port_enable, mux1_output, mux1_output, write_back_value);
 
 END WriteBackStage1;

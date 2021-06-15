@@ -26,13 +26,13 @@ BEGIN
 	--Update results based on operation
 	WITH opr SELECT
 		result <= '0' & NOT inp1 WHEN "00011", --NOT
-		STD_LOGIC_VECTOR('0' & unsigned(inp1) + to_unsigned(1, n + 1)) WHEN "00100", --INC
-		STD_LOGIC_VECTOR('0' & unsigned(inp1) - to_unsigned(1, n + 1)) WHEN "00101", --DEC
+		STD_LOGIC_VECTOR(inp1(n-1) & unsigned(inp1) + to_unsigned(1, n + 1)) WHEN "00100", --INC
+		STD_LOGIC_VECTOR(inp1(n-1) & unsigned(inp1) - to_unsigned(1, n + 1)) WHEN "00101", --DEC
 		'0' & inp1 WHEN "01000", --MOV
 		'0' & inp2 WHEN "00110" | "00111", --IN/OUT
-		STD_LOGIC_VECTOR(('0' & unsigned(inp1)) + ('0' & unsigned(inp2))) WHEN "01001" | "01010" | "10011" | "10100", --ADD/IADD/LDD/STD
-		STD_LOGIC_VECTOR(('0' & unsigned(inp2))) WHEN "10010", --LDM
-		STD_LOGIC_VECTOR(('0' & unsigned(inp1)) - ('0' & unsigned(inp2))) WHEN "01011", --SUB
+		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp1)) + (inp2(n-1) & unsigned(inp2))) WHEN "01001" | "01010" | "10011" | "10100", --ADD/IADD/LDD/STD
+		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp2))) WHEN "10010", --LDM
+		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp1)) - (inp2(n-1) & unsigned(inp2))) WHEN "01011", --SUB
 		'0' & (inp1 AND inp2) WHEN "01100", --AND
 		'0' & (inp1 OR inp2) WHEN "01101", --OR
 		STD_LOGIC_VECTOR(shift_left(signed('0' & inp1), to_integer(unsigned(inp2)))) WHEN "01110", --SHL
@@ -48,9 +48,9 @@ BEGIN
 	--Update flags enable signals
 	WITH opr SELECT
 		flags_enable <= "100" WHEN "00001" | "00010" | "01110" | "01111", --SETC/CLRC/SHL/SHR
-		"011" WHEN "00011" | "00100" | "00101" | "01100" | "01101", --NOT/INC/DEC/AND/OR
+		"011" WHEN "00011" | "01100" | "01101", --NOT/AND/OR
 		"000" WHEN "01000" | "00110" | "00111", --MOV/OUT/IN
-		"111" WHEN "01001" | "01010" | "01011", --ADD/IADD/SUB	
+		"111" WHEN "00100" | "00101" | "01001" | "01010" | "01011", --INC/DEC/ADD/IADD/SUB	
 		"000" WHEN OTHERS;
 	result_output <= result(n DOWNTO 1) WHEN opr = "01111" ELSE
 		result(n - 1 DOWNTO 0);

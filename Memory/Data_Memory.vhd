@@ -8,7 +8,7 @@ ENTITY DataMemeory IS
         address_n : INTEGER := 20
     );
     PORT (
-        clk, we, rst : IN STD_LOGIC;
+        clk, we, re, rst : IN STD_LOGIC;
         address : IN STD_LOGIC_VECTOR(n - 1 DOWNTO 0); -- need only right address_n bits (to be sliced)
         data_in : IN STD_LOGIC_VECTOR(n - 1 DOWNTO 0); -- data in is 2 words and one memory address is 1 word (to be divided into two parts)
         data_out : OUT STD_LOGIC_VECTOR(n - 1 DOWNTO 0) -- same for data out need to take two memory addresses and merge them to the output
@@ -29,6 +29,6 @@ BEGIN
             data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) <= data_in(n/2 - 1 DOWNTO 0);
             data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) <= data_in(n - 1 DOWNTO n/2);
         END IF;
-    END PROCESS;
-    data_out <= data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) & data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1);
+        END PROCESS;
+        data_out <= data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0)))) & data_memory(to_integer(unsigned(address(address_n - 1 DOWNTO 0))) + 1) when re = '1' else (others => 'Z') ;
 END ARCHITECTURE;

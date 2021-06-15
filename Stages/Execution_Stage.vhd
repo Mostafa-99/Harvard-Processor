@@ -6,10 +6,10 @@ ENTITY ExecutionStage IS
     PORT (
         clk, rst, alu_source : IN STD_LOGIC; --Clock, Reset, ALU Source for R2(1 means immediate value)
         opcode : IN STD_LOGIC_VECTOR(5 DOWNTO 0); --Opcode of the operation
-        register1_decoded, register2_decoded, immediate_value : IN STD_LOGIC_VECTOR(31 DOWNTO 0); --The value decoded from Rs, Rd, and the immediate value coming from sign extend
+        register1_decoded, register2_decoded, immediate_value, input_port : IN STD_LOGIC_VECTOR(31 DOWNTO 0); --The value decoded from Rs, Rd, and the immediate value coming from sign extend
         IdEx_Rs, IdEx_Rd, ExMem_Rd, MemWB_Rd : IN STD_LOGIC_VECTOR (2 DOWNTO 0); --Register values used for forwarding
-        ExMem_WB, MemWB_WB : IN STD_LOGIC; --Write back signal
-        ExMem_Val, MemWB_Val : IN STD_LOGIC_VECTOR(31 downto 0); --The forwarded values from the next stages 
+        ExMem_WB, MemWB_WB, input_enable : IN STD_LOGIC; --Write back signal
+        ExMem_Val, MemWB_Val : IN STD_LOGIC_VECTOR(31 DOWNTO 0); --The forwarded values from the next stages 
         zero_flag, negative_flag, carry_flag : OUT STD_LOGIC; --The flag register outputs
         alu_result : OUT STD_LOGIC_VECTOR(31 DOWNTO 0) --The final output of the ALU execution
     );
@@ -53,25 +53,28 @@ ARCHITECTURE ExecutionStage1 OF ExecutionStage IS
             data_out : OUT STD_LOGIC_VECTOR(n - 1 DOWNTO 0));
     END COMPONENT;
 
-    signal forwarding_unit_signal1, forwarding_unit_signal2 : STD_LOGIC_VECTOR(1 downto 0);
-    signal alu_input1, alu_input2_tmp, alu_input2 : STD_LOGIC_VECTOR(31 downto 0);
-    signal alu_flags_output : STD_LOGIC_VECTOR(2 downto 0); --The output of flags for current operation, 0-> zero, 1->neg, 2->carry
-    signal alu_flags_enable : STD_LOGIC_VECTOR(2 downto 0); --The output of flags for current operation, 0-> zero, 1->neg, 2->carry
-    signal flag_final_value : STD_LOGIC_VECTOR(2 downto 0); --The value of the flag registers
+    SIGNAL forwarding_unit_signal1, forwarding_unit_signal2 : STD_LOGIC_VECTOR(1 DOWNTO 0);
+    SIGNAL alu_input1, alu_input1_tmp, alu_input2_tmp, alu_input2, alu_result_tmp : STD_LOGIC_VECTOR(31 DOWNTO 0);
+    SIGNAL alu_flags_output : STD_LOGIC_VECTOR(2 DOWNTO 0); --The output of flags for current operation, 0-> zero, 1->neg, 2->carry
+    SIGNAL alu_flags_enable : STD_LOGIC_VECTOR(2 DOWNTO 0); --The output of flags for current operation, 0-> zero, 1->neg, 2->carry
+    SIGNAL flag_final_value : STD_LOGIC_VECTOR(2 DOWNTO 0); --The value of the flag registers
 BEGIN
-
-
     --Instantiate the MUXes and the correct input for ALU
-    m1: MUX4 generic map(32) port map(forwarding_unit_signal1, register1_decoded, ExMem_Val, MemWB_Val, MemWB_Val, alu_input1 );
-    m2: MUX4 generic map(32) port map(forwarding_unit_signal2, register2_decoded, ExMem_Val, MemWB_Val, MemWB_Val, alu_input2_tmp ); --We use a tmp register for alu inp2 as we still have to make a condition for immediate values
-    alu_input2 <= alu_input2_tmp when alu_source = '0' else immediate_value;
+    m1 : MUX4 GENERIC MAP(32) PORT MAP(forwarding_unit_signal1, register1_decoded, ExMem_Val, MemWB_Val, MemWB_Val, alu_input1_tmp);
+    m2 : MUX4 GENERIC MAP(32) PORT MAP(forwarding_unit_signal2, register2_decoded, ExMem_Val, MemWB_Val, MemWB_Val, alu_input2_tmp); --We use a tmp register for alu inp2 as we still have to make a condition for immediate values
+    alu_input2 <= alu_input2_tmp WHEN alu_source = '0' ELSE
+        immediate_value;
+    WITH opcode SELECT --Select input from Rdst if it is a one operand instruction
+        alu_input1 <= alu_input2_tmp WHEN "000011" | "000100" | "000101" | "000110" | "000111",
+        alu_input1_tmp WHEN OTHERS;
     --Instantiate the ALU unit
-    alu1: ALU generic map(32) port map(alu_input1, alu_input2, opcode(4 downto 0), alu_result, alu_flags_output(0), alu_flags_output(1), alu_flags_output(2), alu_flags_enable);
+    alu1 : ALU GENERIC MAP(32) PORT MAP(alu_input1, alu_input2, opcode(4 DOWNTO 0), alu_result_tmp, alu_flags_output(0), alu_flags_output(1), alu_flags_output(2), alu_flags_enable);
     --Instantiate the ALU Flags register
-    ccr1: FlagRegister generic map (3) port map(clk, rst, alu_flags_output, alu_flags_enable, flag_final_value); 
+    ccr1 : FlagRegister GENERIC MAP(3) PORT MAP(clk, rst, alu_flags_output, alu_flags_enable, flag_final_value);
     --Instantiate the Forwarding Unit
-    fu1: ForwardingUnit port map(IdEx_Rs, IdEx_Rd, ExMem_Rd, MemWB_Rd, ExMem_WB, MemWB_WB, forwarding_unit_signal1, forwarding_unit_signal2);
+    fu1 : ForwardingUnit PORT MAP(IdEx_Rs, IdEx_Rd, ExMem_Rd, MemWB_Rd, ExMem_WB, MemWB_WB, forwarding_unit_signal1, forwarding_unit_signal2);
 
+    alu_result <= alu_result_tmp when input_enable = '0' else input_port;
     zero_flag <= flag_final_value(0);
     negative_flag <= flag_final_value(1);
     carry_flag <= flag_final_value(2);
