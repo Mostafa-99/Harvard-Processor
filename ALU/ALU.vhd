@@ -29,7 +29,7 @@ BEGIN
 		STD_LOGIC_VECTOR(inp1(n-1) & unsigned(inp1) + to_unsigned(1, n + 1)) WHEN "00100", --INC
 		STD_LOGIC_VECTOR(inp1(n-1) & unsigned(inp1) - to_unsigned(1, n + 1)) WHEN "00101", --DEC
 		'0' & inp1 WHEN "01000", --MOV
-		'0' & inp2 WHEN "00110" | "00111", --IN/OUT
+		'0' & inp2 WHEN "00110" | "00111"|"10000", --IN/OUT
 		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp1)) + (inp2(n-1) & unsigned(inp2))) WHEN "01001" | "01010" | "10011" | "10100", --ADD/IADD/LDD/STD
 		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp2))) WHEN "10010", --LDM
 		STD_LOGIC_VECTOR((inp1(n-1) & unsigned(inp1)) - (inp2(n-1) & unsigned(inp2))) WHEN "01011", --SUB

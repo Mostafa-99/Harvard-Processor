@@ -18,7 +18,8 @@ END ENTITY;
 ARCHITECTURE DataMemeory1 OF DataMemeory
     IS
     TYPE data_memory_type IS ARRAY(0 TO 2 ** address_n - 1) OF STD_LOGIC_VECTOR(n/2 - 1 DOWNTO 0); --2MB memory -> 2**20 - 1
-    SIGNAL data_memory : data_memory_type;
+    -- SIGNAL data_memory : data_memory_type;
+    SIGNAL data_memory : data_memory_type := (others=>(others=>'0'));
 
 BEGIN
     PROCESS (clk)

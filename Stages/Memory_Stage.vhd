@@ -44,6 +44,7 @@ ARCHITECTURE MemoryStage1 OF MemoryStage IS
     SIGNAL memory_data_in : STD_LOGIC_VECTOR(n - 1 DOWNTO 0);
 BEGIN
     address_MUX : MUX2 PORT MAP(sp_ctrl, ExMem_address, sp_address, memory_address_in); -- Select between Address and Stack pointer address
-    data_in_MUX : MUX2 PORT MAP(call_ctrl, ExMem_read_data2, ExMem_pc, memory_data_in); -- Select between Read Data 2 and Program Counter
+    --data_in_MUX : MUX2 PORT MAP(call_ctrl, ExMem_read_data2, ExMem_pc, memory_data_in); -- Select between Read Data 2 and Program Counter
+    memory_data_in <= ExMem_read_data2;
     data_mem : DataMemeory PORT MAP(clk, we, re, rst, memory_address_in, memory_data_in, MemWb_data_in); -- Data memory component
 END MemoryStage1;

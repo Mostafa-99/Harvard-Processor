@@ -14,6 +14,8 @@ entity IdExBuff is
         iValSignExtended : in std_logic_vector(32 - 1 downto 0);
         rsAddr : in std_logic_vector(2 downto 0);
         rdAddr : in std_logic_vector(2 downto 0);
+        input_port_in : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+
         --control signalsss
         controlSigs : in std_logic_vector(20 - 1 downto 0);
         -------------------------------------- Output
@@ -25,6 +27,7 @@ entity IdExBuff is
         iValSignExtendedOut : out std_logic_vector(32 - 1 downto 0);
         rsAddrOut : out std_logic_vector(2 downto 0);
         rdAddrOut : out std_logic_vector(2 downto 0);
+        input_port_out : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
         --control signalsss
         controlSigsOut : out std_logic_vector(20 - 1 downto 0)
 
@@ -52,6 +55,7 @@ begin
     b5 : IBuffer generic map(32) port map(clk, rst, enable, iValSignExtended, iValSignExtendedOut);
     b6 : IBuffer generic map(3) port map(clk, rst, enable, rsAddr, rsAddrOut);
     b7 : IBuffer generic map(3) port map(clk, rst, enable, rdAddr, rdAddrOut);
-    b8 : IBuffer generic map(20) port map(clk, rst, enable, controlSigs, controlSigsOut);
+    b8 : IBuffer generic map(32) port map(clk, rst, enable, input_port_in, input_port_out);
+    b9 : IBuffer generic map(20) port map(clk, rst, enable, controlSigs, controlSigsOut);
 
 end architecture;
